@@ -15,6 +15,10 @@ endif::[]
 
 By: `Team F09-B2`      Since: `Jan 2018`      Licence: `MIT`
 
+ifdef::env-github[]
+Please click https://recirecipe.netlify.com/userguide[here] to view the User Guide with full formatting.
+endif::[]
+
 == Introduction
 
 // tag::applicationDescription[]
@@ -647,6 +651,8 @@ _Currently `parse` only works with http://recipes.wikia.com/ (both desktop and m
 _`parse` is intended to work with recipe pages only. ReciRecipé might or might not parse other types of pages. Restricting `parse` to work on only recipe pages will be considred for v2.0._
 * *_PREPARATION_TIME_* and *_COOKING_TIME_* accept invalid time values, e.g. `1h90m`, `200 mins 2 hours`, etc. +
 _We expect you to provide ReciRecipé with a correct and valid time value like `150m` instead of `1h90m`. More restrictive formats will be considered for v2.0._
+* kbd:[F1] and kbd:[F2] don't work when the in-app browser is clicked. +
+_This is a known problem with current version of Java. We have been looking into this problem and the issue might be resolved soon._
 //end:current-issues[]
 
 == Glossary
