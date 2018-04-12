@@ -1,0 +1,46 @@
+= John Doe - Project Portfolio
+:imagesDir: ../images
+:stylesDir: ../stylesheets
+
+== PROJECT: ReciRecipé
+
+Welcome to my portfolio page for CS2103T Academic Year 2018 Semester 2 project - ReciRecipé.
+
+== Project Overview
+
+include::../UserGuide.adoc[tag=applicationDescription]
+
+* *Code contributed*: [https://github.com[Functional code]] [https://github.com[Test code]] _{give links to collated code files}_
+
+[[code-contributions]
+== Summary of contributions
+
+=== Enhancement: Unique Tag Colors
+==== Why?
+Users love visually aesthetic applications! But on a more serious note, different tag colors help users differentiate their tags at at glance.
+
+This feature has been implemented in version 1.1, in PR link:https://github.com/CS2103JAN2018-F09-B2/main/pull/5[#5].
+
+include::../DeveloperGuide.adoc[tag=unique-tag-colors]
+
+== Contributions to the User Guide
+
+
+|===
+|_Given below are sections I contributed to the User Guide. They showcase my ability to write documentation targeting end-users._
+|===
+
+
+== Contributions to the Developer Guide
+
+|===
+|_Given below are sections I contributed to the Developer Guide. They showcase my ability to write technical documentation and the technical depth of my contributions to the project._
+|===
+
+
+
+== PROJECT: ReciRecipé
+
+---
+
+_{Optionally, you may include other projects in your portfolio.}_
