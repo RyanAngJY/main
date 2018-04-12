@@ -665,7 +665,12 @@ The *`share`* command is implemented in the `_ShareCommand_` class. On command e
 
 The event is then propagated through the `_EventsCenter_` to the `_BrowserPanel_`, which is supported by the `_FacebookHandler_` class (contains methods for Facebook integration and authentication).
 
-The `_BrowserPanel_` will call `handleShareRecipeEvent()` and update the web view to show the Facebook authentication page. The recipe name, ingredients, and instructions, are also formatted and copied to the clipboard.
+The `_BrowserPanel_` will call `handleShareRecipeEvent()` and update the web view to show the Facebook authentication page. The recipe name, ingredients, and instructions, are also formatted and copied to the clipboard. Shown below in <<fig-ShareCommandSD>> is the component interactions for a *`share`* command.
+
+[[fig-ShareCommandSD]]
+.Component interactions for *`share 1`* command (part 1)
+image::SDforShareCommand.jpg[width="800"]
+{nbsp} +
 
 The `_recipe_` class handles the formatting of the recipe text before it is copied to the clipboard:
 
