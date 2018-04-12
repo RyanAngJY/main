@@ -1,11 +1,4 @@
 = Ryan Ang - Project Portfolio
-:toc:
-:toc-title:
-:toc-placement: preamble
-:experimental:
-:sectnums:
-:xrefstyle: short
-ifdef::env-github,env-browser[:outfilesuffix: .adoc]
 :imagesDir: ../images
 :stylesDir: ../stylesheets
 :repoURL: https://github.com/CS2103JAN2018-F09-B2/main/tree/master
@@ -71,7 +64,3 @@ Listed below are other contributions I have made to the ReciRecipé project:
 ** Contributed to User Stories and Use Cases.
 
 ---
-
-ifndef::env-github[]
-include::../NavBar.adoc[]
-endif::[]
