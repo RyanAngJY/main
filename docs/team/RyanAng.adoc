@@ -1,6 +1,6 @@
 = Ryan Ang - Project Portfolio
 :imagesDir: ../images
-:stylesDir: ../../stylesheets
+:stylesDir: ../stylesheets
 
 == PROJECT: ReciRecipé
 
