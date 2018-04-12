@@ -43,8 +43,9 @@ This app will not work with earlier versions of Java 8.
 
 [[fig-UiLayout]]
 .GUI for ReciRecipe
-image::Ui_Layout.PNG[width="790"]
+image::Ui_Layout.png[width="790"]
 {nbsp} +
+
 Referring to Figure 1 above:
 .. On the left section, we have the display page that gives more details about a specific recipe selected.
 .. On the upper-half of the center section, we have the command box where commands are entered.
