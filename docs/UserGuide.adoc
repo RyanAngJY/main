@@ -183,6 +183,7 @@ Format: `edit INDEX [name/RECIPE_NAME] [ingredient/INGREDIENT] [instruction/INST
 * *_INDEX_* refers to the index number shown in the last recipe listing. The index *must be a positive integer* 1, 2, 3, ...
 * At least one of the optional fields *must* be provided.
 * Existing values will be updated to the input values.
+* To remove an image attached to a recipe, use "-" as a placeholder (eg. *`edit 1 img/-`*).
 * When editing tags, the existing tags of the recipe will be removed, i.e. adding of tags is not cumulative.
 * You can remove all the recipe's tags by typing `t/` without specifying any tags after it.
 ****
