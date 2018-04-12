@@ -41,9 +41,8 @@ This app will not work with earlier versions of Java 8.
 .  Double-click the file to start the app. The GUI should appear in a few seconds (refer to Figure 1).
 +
 
-[[fig-UiLayout]]
 .GUI for ReciRecipe
-image::Ui.png[width="790"]
+image::Ui_Layout.png[width="790"]
 {nbsp} +
 
 Referring to Figure 1 above:
