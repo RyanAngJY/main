@@ -1,4 +1,4 @@
-= John Doe - Project Portfolio
+= Ryan Ang - Project Portfolio
 :imagesDir: ../images
 :stylesDir: ../stylesheets
 
@@ -12,7 +12,7 @@ include::../UserGuide.adoc[tag=applicationDescription]
 
 * *Code contributed*: [https://github.com[Functional code]] [https://github.com[Test code]] _{give links to collated code files}_
 
-[[code-contributions]
+[[code-contributions]]
 == Summary of contributions
 
 === Enhancement: Unique Tag Colors
