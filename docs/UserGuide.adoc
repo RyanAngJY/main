@@ -40,6 +40,8 @@ This app will not work with earlier versions of Java 8.
 .  Copy the file to the folder you want to use as the home folder for your Recipe Book.
 .  Double-click the file to start the app. The GUI should appear in a few seconds (refer to Figure 1).
 +
+
+[[fig-UiLayout]]
 .GUI for ReciRecipe
 image::Ui_Layout.PNG[width="790"]
 {nbsp} +
