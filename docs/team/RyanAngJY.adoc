@@ -47,26 +47,28 @@ include::../UserGuide.adoc[leveloffset=1,tag=share-command]
 
 include::../DeveloperGuide.adoc[tag=facebook-compatibility]
 
+=== New feature: Image Support
+==== Why?
+Users want to know how awesome their dish looks like once they have cooked it.
+
+This feature has been implemented in version 1.4, in PR link:https://github.com/CS2103JAN2018-F09-B2/main/pull/86[#86].
+
+include::../DeveloperGuide.adoc[tag=inserting-an-image]
+
 == Other contributions
 
-Below are various non-documentation contributions I have made to ReciRecipé, some of which were crucial to the project:
+Listed below are other contributions I have made to the ReciRecipé project:
 
-* Miscellaneous code contributions:
-** Morphed the application from AddressBook to RecipeBook, which required changing *the whole code base* while maintaining the interaction of the components as well as the correctness of the whole project (PR https://github.com/CS2103JAN2018-F09-B2/main/pull/32[#32]).
-** Wrote additional tests for existing features to increase coverage to 93% (PR https://github.com/CS2103JAN2018-F09-B2/main/pull/51[#51]).
-** Add new fields (`CookingTime`, `PreparationTime`, `Calories`, `Servings`) and fix the formatting for the old fields. (PR https://github.com/CS2103JAN2018-F09-B2/main/pull/50[#50])
+* UI Design:
+** Redesigned the layout and appearance of the original UI.
 
-* Project management:
-** Managed the milestones on GitHub.
-** Added continuous integration tools using https://ci.appveyor.com/project/kokonguyen191/main[AppVeyor],
-https://coveralls.io/github/CS2103JAN2018-F09-B2/main?branch=master[Coveralls] and
-https://app.codacy.com/app/kokonguyen191/main/dashboard[Codacy] (commits link:https://github.com/CS2103JAN2018-F09-B2/main/commit/4bbee79bf29fed6255f28869c1fd4443afba5844[4bbee79] & link:https://github.com/CS2103JAN2018-F09-B2/main/commit/e1f945872d623f578a37246941f529d6b4ba64ea[e1f9458]).
-** Reviewed teammates' pull requests both via GitHub and other means of communication, ensured that the pull requests were healthy and had adequate testing.
+* Project Management:
+** Set up team organisation and repository.
+** Managed issues on GitHub.
+** Reviewed teammates' pull requests via GitHub.
 
-* Documentation contributions:
-** Overhauled the guides (PR https://github.com/CS2103JAN2018-F09-B2/main/pull/81[#81]).
-** Added a navigation bar to GitHub pages for ease of navigation (PR link:https://github.com/CS2103JAN2018-F09-B2/main/pull/77[#77]). (Credits: https://github.com/CS2103AUG2017-W11-B2/main[CS2103AUG2017-W11-B2])
-** Added and maintained the link:{repoURL}/docs/Glossary.adoc[glossary].
+* Other Documentation Contributions:
+** Contributed to User Stories and Use Cases.
 
 ---
 
