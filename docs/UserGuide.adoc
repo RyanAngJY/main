@@ -43,7 +43,7 @@ This app will not work with earlier versions of Java 8.
 
 [[fig-UiLayout]]
 .GUI for ReciRecipe
-image::Ui_Layout.png[width="790"]
+image::Ui.png[width="790"]
 {nbsp} +
 
 Referring to Figure 1 above:
