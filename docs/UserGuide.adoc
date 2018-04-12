@@ -412,7 +412,6 @@ The Facebook authentication page is shown on the browser for the User to log in.
 .Facebook Authentication Page
 image::FacebookAuthentication.jpg[width="600"]
 {nbsp} +
-
 Upon logging in: if the shared recipe has a URL, the in-app browser will load a feed dialog for the User to share the URL as shown below (see <<fig-FacebookFeedDialog>>).
 The contents in the recipe would have been copied to the clipboard for the User to paste into the Facebook post.
 
@@ -420,7 +419,6 @@ The contents in the recipe would have been copied to the clipboard for the User 
 .Facebook Feed Dialog
 image::FacebookFeedDialog.jpg[width="600"]
 {nbsp} +
-
 The User will be redirected back to his/her Facebook feed once the post has been made.
 
 === *`tag`* : Locating recipes by tags
@@ -591,7 +589,7 @@ Uploads the 6th recipe in the recipe book to the server.
 *A*: Install the app on the other computer and overwrite the empty data file it creates with the file that contains the data of your previous ReciRecipé.
 
 *Q*: Where do I find my data file? +
-*A*: image:FAQ2.png[width="450"]
+*A*: image:FAQ2.PNG[width="450"]
 {nbsp}
 
 Q: There is still something I don't understand after reading this guide! +
