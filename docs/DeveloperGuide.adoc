@@ -696,11 +696,11 @@ public static void copyToClipboard(String string) {
 
 Upon logging in, the User will be shown a feed dialog with the embedded URL of the recipe. The user may choose to input any text into the post (eg. pasting the copied recipe from clipboard). The User then has to manually click "post" before an actual Facebook post is made.
 
-The `_BrowserPanel_` will be updated to show the Facebook feed of the User.
+The `_BrowserPanel_` will be updated to show the Facebook feed of the User. The activity diagram below (<<fig-ShareCommandAD>>) depicts the execution flow of the *`share`* command.
 
 [[fig-ShareCommandAD]]
 .Activity Diagram for *`share`* command
-image::ADforShareCommand.jpg[width="700"]
+image::ADforShareCommand.jpg[width="800"]
 {nbsp} +
 
 ==== Design considerations
