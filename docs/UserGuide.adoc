@@ -408,6 +408,7 @@ Shares the 2nd recipe in the recipe book.
 The contents in the recipe will be copied to the clipboard for the User to paste into the Facebook post.
 The Facebook authentication page is shown on the browser for the User to log in.
 Upon logging in: if the shared recipe has a URL, the in-app browser will load a feed dialog for the User to share the URL as shown below (see <<fig-FacebookFeedDialog>>).
+
 [[fig-FacebookFeedDialog]]
 .Facebook Feed Dialog
 image::FacebookFeedDialog.jpg[width="600"]
