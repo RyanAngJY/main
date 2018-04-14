@@ -12,7 +12,6 @@ ifdef::env-github,env-browser[:outfilesuffix: .adoc]
 
 ifdef::env-github[]
 Please click https://recirecipe.netlify.com/team/RyanAng.html[here] to view my project portfolio with full formatting.
----
 endif::[]
 
 == PROJECT: ReciRecipé
