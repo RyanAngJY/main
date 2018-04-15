@@ -227,6 +227,7 @@ Format: `edit INDEX [name/RECIPE_NAME] [ingredient/INGREDIENT] [instruction/INST
 * At least one of the optional fields *must* be provided.
 * Existing values will be updated to the input values.
 * To remove an image attached to a recipe, use "-" as a placeholder (eg. *`edit 1 img/-`*).
+* To remove an embedded URL of a recipe, use "-" as a placeholder (eg. *`edit 1 url/-`*).
 * When editing tags, the existing tags of the recipe will be removed, i.e. adding of tags is not cumulative.
 * You can remove all the recipe's tags by typing `t/` without specifying any tags after it.
 ****
@@ -428,7 +429,9 @@ Selects the recipe identified by the index number used in the last recipe listin
 Format: `select INDEX`
 
 ****
-* If the selected recipe has a URL, the in-app browser will load that URL. Otherwise, it will load the recipe contents.
+* If the selected recipe has a valid embedded URL, the in-app browser will load that URL.
+* If the selected recipe has an invalid embedded URL, the in-app browser will not update upon a recipe selection change.
+* If the recipe has no embedded URL, the in-app browser will load the recipe contents.
 * The result box will always show the recipe content regardless of whether there is an embedded URL or not.
 * The index refers to the index number shown in the most recent listing.
 * The index *must be a positive integer*, e.g. "1, 2, 3, ...".

@@ -1,4 +1,4 @@
-= ReciRecipé - Developer Guide
+﻿= ReciRecipé - Developer Guide
 :toc:
 :toc-title:
 :toc-placement: preamble
@@ -686,6 +686,15 @@ public static Optional<Url> parseUrlOnInitialAdd(Optional<String> url) throws Il
 ** Pros: The `_Recipe_` class has better separation of optional and compulsory properties.
 ** Cons: The more complex implementation may confuse new developers, and the interaction with other components may become needlessly complex.
 // end::embedded-url[]
+
+===== Aspect: Checking for URL validity.
+
+* **Alternative 1:** Ping the given URL to check if the URL is valid.
+** Pros: Ensures that all embedded URL are loadable on the browser panel.
+** Cons: Adding a URL requires Internet connection. Otherwise, a valid URL may be considered invalid as it cannot be pinged.
+* **Alternative 2 (current choice):** Check if given URL follows standard URL format (eg. starts with https://).
+** Pros: User has no need for Internet connection to add a valid URL.
+** Cons: User is responsible for ensuring URL is loadable on a browser.
 
 // tag::facebook-compatibility[]
 === Facebook compatibility
@@ -2211,6 +2220,50 @@ Sample commands can be found in the cheatsheet in the User Guide. Here are some 
 .. Delete the data/images folder.
 .. Re-launch the app.
 * Expected outcome: All images will not display and all recipes will have a null image reference for the image field instead of the old file path.
+
+=== Image insertion
+
+. Dealing with changed image path name:
+* Steps:
+.. Add an image to a recipe (you can use the *`edit`* command).
+.. Change the original image file name or re-locate it to another folder.
+.. Re-launch the app.
+* Expected outcome: The app will still show the added image.
+
+. Dealing with deleted image:
+* Steps:
+.. Add an image to a recipe.
+.. Delete the original image file.
+.. Re-launch the app.
+* Expected outcome: The app will still show the added image.
+
+=== Embedded URL
+
+. Dealing with edit URL:
+* Steps:
+.. Select a recipe.
+.. Edit the URL of the recipe to another valid URL.
+* Expected outcome: The browser panel will update to show the new embedded URL.
+
+=== Sharing a recipe
+
+. Sharing a recipe with an embedded URL:
+* Steps:
+.. Execute share command on a recipe with an embedded URL.
+.. Log in to Facebook account
+* Expected outcome: A Facebook dialog feed will appear with an embedded URL link.
+
+. Sharing a recipe with an embedded but invalid URL:
+* Steps:
+.. Execute share command on a recipe with an embedded invalid URL.
+.. Log in to Facebook account
+* Expected outcome: Your Facebook feed will appear.
+
+. Sharing a recipe without an embedded URL:
+* Steps:
+.. Execute share command on a recipe without an embedded URL.
+.. Log in to Facebook account
+* Expected outcome: Your Facebook feed will appear.
 
 [appendix]
 == Glossary
